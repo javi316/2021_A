@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40A596"
+    android:backgroundTint="#FAFBFB"
+    tools:context=".SegundaActivity">
+
+    <Button
+        android:id="@+id/primer_boton"
+        android:layout_width="91dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/homeAsUpIndicator"
+        android:backgroundTint="#272729"
+        android:text="@string/_1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/segundo_boton"
+        android:layout_width="396dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#DF4343"
+        android:text="@string/ir_a_la_tercera_actividad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/primer_boton" />
+
+    <TextView
+        android:id="@+id/tvNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="178dp"
+        android:backgroundTint="#121111"
+        android:text="@string/_0"
+        android:textSize="40sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/segundo_boton" />
+
+    <Button
+        android:id="@+id/btn_incrementar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="@string/incrementar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_decrementar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNumero" />
+
+    <Button
+        android:id="@+id/btn_decrementar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#F44336"
+        android:text="@string/decrementar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_incrementar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

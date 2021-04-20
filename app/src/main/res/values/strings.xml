@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Primera App</string>
+    <string name="ir_a_segunda_activity">Ir a segunda Activity</string>
+    <string name="ir_a_tercera_actividad">IR A TERCERA ACTIVIDAD</string>
+    <string name="ir_a_primera_actividad">Ir a Primera Actividad</string>
+    <string name="ir_a_la_tercera_actividad">Ir a Tercera Actividad</string>
+
+    <string name="ir_a_segunda_actividad">Ir a Segunda Actividad</string>
+    <string name="_0">0</string>
+    <string name="incrementar">Incrementar</string>
+    <string name="_1">.</string>
+    <string name="decrementar">DECREMENTAR</string>
+    <string name="javier_eduardo_ocampo_andrade">JAVIER EDUARDO OCAMPO ANDRADE</string>
+    <string name="javier_ocampo2828_alumnos_udg_mx">javier.ocampo2828@alumnos.udg.mx</string>
+</resources>
